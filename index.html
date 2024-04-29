@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Unidades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Unidades</h1>
+
+    <div class="input-group">
+      <label for="input">Digite a quantidade:</label>
+      <input type="number" name="input" id="input" placeholder="0">
+    </div>
+    <fieldset>
+      <legend>Conversões de comprimento</legend>
+      <div class="input-group">
+        <label for="from">De:</label>
+        <select name="from" id="from">
+          <option value="mm">Milímetros</option>
+          <option value="cm">Centímetros</option>
+          <option value="m">Metros</option>
+          <option value="km">Quilômetros</option>       
+          <option value="ml">Milhas</option>        
+        </select>
+  
+        <label for="to">Para:</label>
+        <select name="to" id="to">
+          <option value="mm">Milímetros</option>
+          <option value="cm">Centímetros</option>
+          <option value="m">Metros</option>
+          <option value="km">Quilômetros</option>       
+          <option value="ml">Milhas</option>
+          
+        </select>
+      </div>
+      <button id="convert-btn">Converter</button>
+      <div class="result-content">
+        <p><strong>Resultado:</strong>
+          <span id="result">lorem ipsum</span>
+        </p>
+      </div>
+      <div id="msg">mensagem</div>
+    </fieldset>
+
+  </div>
+  
+</body>
+</html>
