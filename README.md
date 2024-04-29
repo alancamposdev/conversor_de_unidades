@@ -17,6 +17,8 @@ O Conversor de Unidades permite converter diferentes tipos de unidades, como com
 
 ## Como Usar
 
+Os usuários tem duas opções diferentes para utilizar o conversor de unidades, seja clonando o repositório e executando localmente ou acessando-o diretamente através do GitHub Pages.
+
 Clone este repositório em sua máquina local:
 
 ```bash
@@ -27,4 +29,3 @@ OU
 
 Acessando diretamente através da página do projeto:  [acesse aqui](https://alancamposdev.github.io/conversor_de_unidades/)
 
-Esta adição fornece aos usuários duas opções diferentes para utilizar o conversor de unidades, seja clonando o repositório e executando localmente ou acessando-o diretamente através do GitHub Pages.
