@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Conversor de Unidades</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <!-- seo  -->
+  <meta name="description" content="Conversor de unidades de comprimento" />
+  <meta name="keywords" content="conversor, unidades, comprimento" />
+  <meta name="author" content="Alan Campos" />
 </head>
+
 <body>
   <div class="container">
     <h1>Conversor de Unidades</h1>
 
     <div class="input-group">
       <label for="input">Digite a quantidade:</label>
-      <input type="number" name="input" id="input" placeholder="0">
+      <input type="number" name="input" id="input" placeholder="0" />
     </div>
     <fieldset>
       <legend>Conversões de comprimento</legend>
@@ -20,32 +27,31 @@
         <label for="from">De:</label>
         <select name="from" id="from">
           <option value="mm">Milímetros</option>
-          <option value="cm">Centímetros</option>
+          <option value="cm" selected>Centímetros</option>
           <option value="m">Metros</option>
-          <option value="km">Quilômetros</option>       
-          <option value="ml">Milhas</option>        
+          <option value="km">Quilômetros</option>
+          <option value="mi">Milhas</option>
         </select>
-  
+
         <label for="to">Para:</label>
         <select name="to" id="to">
           <option value="mm">Milímetros</option>
           <option value="cm">Centímetros</option>
-          <option value="m">Metros</option>
-          <option value="km">Quilômetros</option>       
-          <option value="ml">Milhas</option>
-          
+          <option value="m" selected>Metros</option>
+          <option value="km">Quilômetros</option>
+          <option value="mi">Milhas</option>
         </select>
       </div>
       <button id="convert-btn">Converter</button>
       <div class="result-content">
-        <p><strong>Resultado:</strong>
-          <span id="result">lorem ipsum</span>
+        <p>
+          <strong>Resultado:</strong>
+          <span id="result"></span>
         </p>
       </div>
-      <div id="msg">mensagem</div>
+      <div id="msg"></div>
     </fieldset>
-
   </div>
-  
 </body>
+
 </html>
